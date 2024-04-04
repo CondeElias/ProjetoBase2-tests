@@ -21,7 +21,7 @@ namespace SeuProjetoDeTeste
                 options.AddArgument("--start-maximized");
 
                 // Inicialização do driver do Chrome
-                driver = new ChromeDriver(@"C:\Users\Eric Condé\Downloads\ProjetoBase2-main\ProjetoBase2-main\Driver", options);
+                driver = new ChromeDriver(@"C:\Users\Eric Condé\ProjetoBase2-main\Driver", options);
             }
             catch (Exception ex)
             {
